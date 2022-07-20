@@ -23,22 +23,42 @@ This repository is a rough how-to/log of building Crufty so I can collect hard t
 ### High level BOM (TBC)
 
 - Two self balancing hoverboards (with Gen 2 controllers specifically supported by the hack firmware)
+
 - Raspberry Pi 2/3/4 & 8GB SD card (or larger)
+
 - Microsoft Kinect 360 (smaller point cloud, more manageable than Kinect One)
+
 - Arduino Nano (or other AVR microcontroller you may have)
+
 - HC-SR04 ultrasonic range finders x 3-8
+
 - Generic USB GPS module
+
 - Wemos D1 mini (or other ESP8266 dev board) x 2
+
 - Wii Nunchuck controller
+
+  
+
+  [See the full bill of materials](BOM.md)
 
 ### High level software manifest (TBC)
 
 - Ubuntu 20.04 LTS on Raspberry Pi (to keep Pi 2/3 usable)
+
 - [Robot OS](https://www.ros.org/) 1 LTS Noetic Ninjemys
+
 - [Arduino IDE](https://www.arduino.cc/en/software) 1.8.x (to build code for the ESP/Arduinos)
+
 - [Open Kinect](https://openkinect.org/wiki/Main_Page) (for Kinect 360 support)
+
 - Gen 2 hoverboard hack firmware, specifically [this fork](https://github.com/pieterjanbuntinx/Hoverboard-Firmware-Hack-Gen2) by Pieter-Jan Buntinx
+
 - [OpenSCAD](https://openscad.org/) was used for designing the 3D printed parts and the source files are provided
+
+  
+
+  [See the full manifest](MANIFEST.md)
 
 ## Getting started
 
