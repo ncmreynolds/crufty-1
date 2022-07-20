@@ -6,7 +6,7 @@ Crufty is a 'robot' rover made from 'maker cruft'; those things likely to be fil
 
 The hardest part to source will be hoverboards with the same controllers used in this build, it's a bit of a pot luck what is fitted. If the project is successful I may try and document builds for other common hoverboard controllers.
 
-The intention is that Crufty can be made for a comparatively small outlay and used as a 'learning platform' for Robot OS (ROS) without purchasing large amounts of expensive stuff. Crufty is much bigger than a typical tabletop/indoor robot made with small DC brushed motors but scales many of the usual ideas up so Crufty can be used outdoors.
+The intention is that Crufty can be made for a comparatively small outlay and used as a 'learning platform' for Robot OS (ROS) without purchasing large amounts of expensive stuff. Crufty is much bigger than a typical tabletop/indoor robot made with small DC brushed motors but scales many of the usual ideas up so Crufty can be used outdoors (although sunlight stops the Kinect working).
 
 This repository is a rough how-to/log of building Crufty so I can collect hard to find information in one place.
 
@@ -37,8 +37,27 @@ This repository is a rough how-to/log of building Crufty so I can collect hard t
 - [Robot OS](https://www.ros.org/) 1 LTS Noetic Ninjemys
 - [Arduino IDE](https://www.arduino.cc/en/software) 1.8.x (to build code for the ESP/Arduinos)
 - [Open Kinect](https://openkinect.org/wiki/Main_Page) (for Kinect 360 support)
-- Gen 2 hoverboard hack firmware, specifically [this fork](https://github.com/pieterjanbuntinx/Hoverboard-Firmware-Hack-Gen2) by Pieter-Jan Buntinx.
+- Gen 2 hoverboard hack firmware, specifically [this fork](https://github.com/pieterjanbuntinx/Hoverboard-Firmware-Hack-Gen2) by Pieter-Jan Buntinx
+- [OpenSCAD](https://openscad.org/) was used for designing the 3D printed parts and the source files are provided
 
 ## Getting started
 
 First have a root around and see which of the parts you can find, price up the likely cost of what you don't and decide if you've got the time and budget to build a Crufty. Even with a lot of *very* basic parts needed a rover this size can get quite expensive.
+
+The build is documented in a number of sections, all of which can be built kind of independently, but you should start with the chassis and attach things as you go.
+
+## Sections
+
+### Chassis
+
+### Hoverboard controllers
+
+### Hoverboard motors
+
+### Kinect 360
+
+### Nunchuck controller
+
+### Raspberry Pi
+
+### Ultrasonic array
